@@ -1,0 +1,17 @@
+[
+    {
+        "id": "city-1",
+        "name": "Forde",
+        "country_code": "NO"
+    },
+    {
+        "id": "city-2",
+        "name": "Korba",
+        "country_code": "TN"
+    },
+    {
+        "id": "city-3",
+        "name": "Milos",
+        "country_code": "GR"
+    }
+]

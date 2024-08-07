@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "host_id": "user-1",
+        "host_name": "Ghofrane",
+        "description": "A Treehouse.",
+        "price_per_night": 300,
+        "city_id": "city-1",
+        "city_name": "Forde",
+        "country_code": "NO",
+        "country_name": "Norway",
+        "number_of_rooms": 3,
+        "number_of_bathrooms": 2,
+        "max_guests": 6,
+        "latitude": 59.4256,
+        "longitude": -88.0060,
+        "amenities": ["WiFi", "Pool", "Air Conditioning"],
+        "reviews": [
+            {
+                "user_name": "Jane Smith",
+                "rating": 5,
+                "comment": "Great place to stay!"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "host_id": "user-2",
+        "host_name": "Test Test",
+        "description": "A Castle house",
+        "price_per_night": 180,
+        "city_id": "city-2",
+        "city_name": "Korba",
+        "country_code": "TN",
+        "country_name": "Tunisia",
+        "number_of_rooms": 2,
+        "number_of_bathrooms": 1,
+        "max_guests": 4,
+        "latitude": 53.3701,
+        "longitude": -83.0649,
+        "amenities": ["WiFi", "Pool", "Air Conditioning"],
+        "reviews": []
+    },
+    {
+        "id": 3,
+        "host_id": "user-3",
+        "host_name": "Oussema Turki",
+        "description": "A Beach house",
+        "price_per_night": 250,
+        "city_id": "city-3",
+        "city_name": "Milos",
+        "country_code": "GR",
+        "country_name": "Greece",
+        "number_of_rooms": 4,
+        "number_of_bathrooms": 3,
+        "max_guests": 8,
+        "latitude": 44.6879,
+        "longitude": -103.7854,
+        "amenities": ["WiFi", "Pool", "Air Conditioning"],
+        "reviews": []
+    }
+]

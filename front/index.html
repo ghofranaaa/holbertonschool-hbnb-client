@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Places</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="pictures/icon.png">
+</head>
+<body>
+    <header>
+        <img src="pictures/logo.png" class="logo" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html" class="login-button">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Available Places</h2>
+        <label for="country-filter">Filter by country:</label>
+        <select id="country-filter">
+            <option value="all">All</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="Norway">Norway</option>
+            <option value="Greece">Greece</option>
+
+        </select>
+        <div class="places-list">
+            <div class="place-card">
+                <img src="pictures/beach-house.jpg" alt="Beach House" class="place-image">
+                <h3>Beach House</h3>
+                <p><strong>Price per night:</strong> $250</p>
+                <p><strong>Location:</strong> Milos, Greece</p>
+                <button class="details-button" onclick="location.href='place1.html'">View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="pictures/castle-house.jpg" alt="Castle House" class="place-image">
+                <h3>Castle House</h3>
+                <p><strong>Price per night:</strong> $180</p>
+                <p><strong>Location:</strong> Korba, Tunisia</p>
+                <button class="details-button" onclick="location.href='place2.html'">View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="pictures/treehouse.jpg" alt="Treehouse" class="place-image">
+                <h3>Treehouse</h3>
+                <p><strong>Price per night:</strong> $300</p>
+                <p><strong>Location:</strong>Forde, Norway</p>
+                <button class="details-button" onclick="location.href='place3.html'">View Details</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>All rights reserved.</p>
+    </footer>
+    <script src="static/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="pictures/icon.png">
+</head>
+<body>
+    <header>
+        <img src="pictures/logo.png" class="logo" alt="Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html" class="login-button">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div class="place-details">
+            <h2>Beach House</h2>
+            <div class="place-info">
+                <p><strong>Host:</strong> John Doe</p>
+                <p><strong>Price per night:</strong> $250</p>
+                <p><strong>Location:</strong>Milos, Greece</p>
+                <p><strong>Description:</strong> A beautiful beach house with amazing views...</p>
+                <p><strong>Amenities:</strong> WiFi, Pool, Air Conditioning</p>
+            </div>
+        </div>
+        <h3>Reviews</h3>
+        <div class="reviews">
+            <div class="review-card">
+                <p><strong>Jane Smith:</strong></p>
+                <p>Great place to stay!</p>
+                <p><strong>Rating:</strong> ★★★★★</p>
+            </div>
+            <div class="review-card">
+                <p><strong>Robert Brown:</strong></p>
+                <p>Amazing location and very comfortable.</p>
+                <p><strong>Rating:</strong> ★★★★★</p>
+            </div>
+        </div>
+        <h3>Add a Review</h3>
+        <form class="add-review-form">
+            <label for="comment">Your Review:</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select>
+            <button type="submit">Submit Review</button>
+        </form>
+    </main>
+    <footer>
+        <p>All rights reserved.</p>
+    </footer>
+    <script src="static/scripts.js"></script>
+    <script src="static/place-details.js"></script>
+</body>
+</html>
